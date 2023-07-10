@@ -46,8 +46,9 @@ nav ul li a{
     font-size: 18px;
     border-radius: 30px;
     border-top-right-radius: 0;
-    transition: 0.5s;
+    
 }
+
 .hero-section{
     background: #fceef1;
     display: flex;
@@ -245,5 +246,4 @@ h1 > span{
     margin: 20px auto;
     
 }
-
 
