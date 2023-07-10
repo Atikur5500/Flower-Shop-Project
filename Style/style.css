@@ -139,7 +139,7 @@ body{
 }
 /* Instagram Section Style */
 .instagram-section{
-    margin: 0 50px;
+    margin: 0 150px;
 }
 .instagram-info{
     width: 750px;
@@ -157,9 +157,37 @@ body{
 }
 .instagram-image-info{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .image{
     width: 250px;
     height: 300px;
+}
+/* Deal Section */
+.deal-section{
+    max-width: 78%;
+    margin: 100px auto;
+    padding: 100px 50px;
+    background-image: url('../Image/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+input[type="email"]{
+    margin-left: 25%;
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 500px;
+    height: 40px;
+    border: 1.5px solid #E55473;
+    border-radius: 5px;
+}
+input[type="submit"]{
+   padding: 11px 20px;
+   background-color: #E55473;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+    
 }
