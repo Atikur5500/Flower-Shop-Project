@@ -8,6 +8,7 @@ body{
     font-family: 'JetBrains Mono', monospace;
     word-spacing: -5px;
     letter-spacing: -1px;
+    margin-bottom: 100px;
 }
 /* Hero Section Styles */
 .hero-section{
@@ -135,4 +136,30 @@ body{
     border-radius: 5px;
     font-size: 18px;
     background-color: #E55473;
+}
+/* Instagram Section Style */
+.instagram-section{
+    margin: 0 50px;
+}
+.instagram-info{
+    width: 750px;
+    margin: 60px auto;
+}
+.instagram-title{
+    text-align: center;
+    font-size: 32px;
+    color: #272727;
+}
+.instagram-description{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.instagram-image-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    width: 250px;
+    height: 300px;
 }
