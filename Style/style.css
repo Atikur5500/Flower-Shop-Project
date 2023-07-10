@@ -163,7 +163,7 @@ body{
     width: 250px;
     height: 300px;
 }
-/* Deal Section */
+/* Deal Section Style */
 .deal-section{
     max-width: 78%;
     margin: 100px auto;
@@ -189,5 +189,25 @@ input[type="submit"]{
    border: none;
    border-radius: 5px;
    font-size: 18px;
+    
+}
+/* Footer Section Style */
+.footer-info{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 150px;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-title > span{
+    color: white;
+}
+.footer-description{
+    width: 700px;
+    margin: 20px auto;
     
 }
