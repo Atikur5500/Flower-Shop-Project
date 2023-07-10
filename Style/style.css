@@ -12,7 +12,6 @@ body{
 /* Hero Section Styles */
 .hero-section{
     background: #fceef1;
-    background-image: url('');
     display: flex;
     margin-bottom: 80px;
 }
@@ -93,7 +92,7 @@ body{
     text-align: center;
     text-decoration: underline;
 }
-/* Service Section */
+/* Service Section Style*/
 .service-container{
     display: flex;
     gap: 50px;
@@ -103,4 +102,37 @@ body{
 }
 .service-image{
     text-align: center;
+}
+
+/* Sale Section Style */
+.sale-section{
+    background: #fceef1;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    margin-bottom: 80px;
+}
+.sale-info{
+    margin: 15% 0%;
+    text-align: center;
+}
+.sale-title{
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+}
+.sale-description{
+    color: #272727;
+    font-size: 18px;
+    width: 700px;
+    line-height: 28px;
+}
+.sale-button{
+    margin-top: 10px;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #E55473;
 }
